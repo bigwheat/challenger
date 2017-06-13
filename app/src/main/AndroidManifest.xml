@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tqmall">
+
+    <!--扫码权限开启-->
+    <uses-permission android:name="android.permission.VIBRATE" />  <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />        <!-- 使用照相机权限 -->
+    <uses-feature android:name="android.hardware.camera.autofocus" />   <!-- 自动聚焦权限 -->
+
+    <!--蒲公英权限开启-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 获取网络状态 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 网络通信-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />  <!-- 获取设备信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 获取MAC地址-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 读写sdcard，storage等等 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 允许程序录制音频 -->
+
+
+    <application
+        android:name=".global.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_new"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mvp.activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".utils.zxing.activity.CaptureActivity"/>
+        <activity android:name=".mvp.activity.SettingsActivity"/>
+        <activity android:name=".mvp.activity.HomeActivity"
+                  android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockInWareActivity"
+                  android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockInWareDetailActivity"
+                  android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockTransferSearchActivity"
+                  android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockTransferByBatchNoActivity"
+                  android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockTransferByAllocationSnActivity"
+                  android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.SearchActivity"
+                  android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockTransferChooseActivity"
+            android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockInWareSearchActivity"
+            android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockOutWareSearchActivity"
+            android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockOutWareGoodsDetailActivity"
+            android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockOutWareDetailListActivity"
+            android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockCheckActivity"
+            android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockCheckGoodsDetailActivity"
+            android:theme="@style/AppTheme.NoTrans"/>
+        <activity android:name=".mvp.activity.StockCheckDetailActivity"
+            android:theme="@style/AppTheme.NoTrans"/>
+
+
+
+
+        <!--蒲公英AppId-->
+        <meta-data
+            android:name="PGYER_APPID"
+            android:value="f3f938df97887096c65be48adebf3518" >
+        </meta-data>
+
+        <!--umeng 勿动 5863a3be75ca3555ca002067-->
+        <meta-data android:value="5864cacf4ad1564ef4000b36" android:name="UMENG_APPKEY"/>
+        <!--打包渠道定义 首尾字符不可以为空格 不要使用纯数字作为渠道ID-->
+        <meta-data android:value="UMENG_CHANNEL_ID" android:name="UMENG_CHANNEL"/>
+
+    </application>
+
+</manifest>

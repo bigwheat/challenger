@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.4.0_e4fa441b32affeb8b364c72d0af15470792ec905.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_2cbd81c201397259b77998c4ff1e8bd920ce2715.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android studio/Android Studio.app/Contents/gradle/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha4/constraint-layout-solver-1.0.0-alpha4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="cdeb2aecf7557aa5f8d2ac0e37a0e7760f48c513">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha4_f953a15ac6fc523d11597b06c4312df198c839b5.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/libs/core.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="42fd0eaeee98eb9e1c8cfbcef742a34b54522c4c">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/core_3b9738a92ca18b16f223878d482b0e388b848977.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_8d361f21ac280a688e31fef3645ad57ffd4ddf17.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android studio/Android Studio.app/Contents/gradle/gradle-2.10/caches/modules-2/files-2.1/com.google.dagger/dagger/2.2/febfd2d9e89bde4c3a9723bcd9522cba96bddac7/dagger-2.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="febfd2d9e89bde4c3a9723bcd9522cba96bddac7">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/dagger-2.2_133cfe89e7a443253c8c738ab184afe39609b221.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_a53bf58bf11ef9a8637571da5c2f976243acbcbb.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/libs/commons-codec-1.5.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="cf993e250ff71804754ec2734a16f23c0be99f70">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/commons-codec-1.5_22481277f7a7ac568c535baa3825bd0b59b6c18d.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_05fb2ee05dd1d9223cf6f5de356c47d1de5d0b17.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android studio/Android Studio.app/Contents/gradle/gradle-2.10/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/afe8399d352713b66e597e9670c741d1e60ae923/okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0_86e1c23e90fb91f6604114218af461cdd0bbbe3c.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android studio/Android Studio.app/Contents/gradle/gradle-2.10/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0_c25b6825a157e3a5211a8660395872593934832d.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.0.1_b973fb467a15cd3f9ace852ffad3cd4966348ff2.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android studio/Android Studio.app/Contents/gradle/gradle-2.10/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/javax.inject-1_48afe990c7f30bb0fd95d74dc969704ca484cd08.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.pgyersdk/sdk/2.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2882233658d3058e77206ba96411a55687425c13">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/com.pgyersdk-sdk-2.4.0_16356af25737f9b0048700ab765988f179a49877.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android studio/Android Studio.app/Contents/gradle/gradle-2.10/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/gson-2.3.1_6915878d1beb6cd44b2cd4daca0e4db962dae751.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2a25fdd20d5f75558b6011724bbfbb7d97c7f5b7">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha4_5b73339404a864076bac3d35b500d9aff3b8dbfd.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android studio/Android Studio.app/Contents/gradle/gradle-2.10/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0_7b247d6ce2df102e4b1c7ff3e6fd5d463796b948.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_2a022a4bacd6006dd891b134088cd1bf53e8771b.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_f300e8ba5329aa35ea3e54deb56261b28921ec96.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_b05035f2c45d23dfbe3e084bdf894e1ac06adbb4.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_96d73faaf878fc66756a108df655d18d456bb847.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android studio/Android Studio.app/Contents/gradle/gradle-2.10/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.0.1_124a39fed7dff6a996cc8b3f50205b9f92f6fc62.jar" />
+    </item>
+    <item
+        jar="/Users/Jay/Tools/android studio/Android Studio.app/Contents/gradle/gradle-2.10/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="/Users/Jay/Tools/android_workspace/challenger/app/build/intermediates/pre-dexed/debug/okio-1.0.0_2f33d096e3fd072824b49f18058aea26896d41a0.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_white"
+    android:orientation="vertical"
+    tools:context=".mvp.activity.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17.5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/arrow_back" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:src="@mipmap/arrow_back"
+                    android:text="返回"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="个人中心"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:visibility="invisible"
+                android:id="@+id/userCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="7dp"
+                android:layout_marginRight="5dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:maxHeight="?attr/actionBarSize"
+                android:src="@mipmap/home" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white">
+
+                    <RelativeLayout
+                        android:id="@+id/ac_layout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@mipmap/user_settings_role_bg"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:id="@+id/ivBnsBillType"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/user_settings_role" />
+
+                        <TextView
+                            android:id="@+id/tvUserName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_centerInParent="true"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:layout_below="@+id/ivBnsBillType"
+                            android:text="- - -"/>
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/ac_line1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_below="@id/ac_layout1"
+                        android:background="#E3E3E5" />
+
+                    <RelativeLayout
+                        android:id="@+id/ac_layout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ac_line1"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/img2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="5dp"
+                            android:text="公司名称" />
+
+                        <TextView
+                            android:id="@+id/tvCompanyName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:gravity="right"
+                            android:singleLine="true"
+                            android:layout_marginLeft="50dp"
+                            android:maxLines="1"
+                            android:layout_toRightOf="@+id/img2"
+                            android:text="" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/ac_line2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_below="@id/ac_layout2"
+                        android:background="#E3E3E5" />
+
+                    <RelativeLayout
+                        android:visibility="gone"
+                        android:id="@+id/ac_layout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ac_line2"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:id="@+id/tvGoodsNameTag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="30dp"
+                            android:text="部门" />
+
+                        <TextView
+                            android:id="@+id/tvSection"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:layout_toRightOf="@+id/tvGoodsNameTag"
+                            android:ellipsize="marquee"
+                            android:maxLines="1"
+                            android:text="" />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/ac_line3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_below="@id/ac_layout3"
+                        android:background="#E3E3E5" />
+
+                    <RelativeLayout
+                        android:id="@+id/ac_layout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ac_line3"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:id="@+id/tvType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:text="工号" />
+
+                        <TextView
+                            android:id="@+id/tvJobNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:singleLine="true"
+                            android:gravity="right"
+                            android:maxLines="1"
+                            android:layout_toRightOf="@+id/tvType"
+                            android:text="" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/ac_line4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_below="@id/ac_layout4"
+                        android:background="#E3E3E5" />
+
+                    <RelativeLayout
+                        android:id="@+id/ac_layout5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ac_line4"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/tvFormat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:text="手机" />
+
+                        <TextView
+                            android:id="@+id/tvMobile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:maxLines="1"
+                            android:gravity="right"
+                            android:singleLine="true"
+                            android:layout_toRightOf="@+id/tvFormat"
+                            android:text="" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/ac_line5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_below="@id/ac_layout5"
+                        android:background="#E3E3E5" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ac_layout11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="50dp"
+                    android:background="@color/gray_white"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/line_color"/>
+
+                    <TextView
+                        android:id="@+id/logout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tvSetRecommend"
+                        android:layout_weight="5"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="退出登录"
+                        android:background="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V1.0(2017010101)"
+            android:id="@+id/tvVersion"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="10sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+</LinearLayout>
